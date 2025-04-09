@@ -1,0 +1,21 @@
+{
+  "name": "realtime-chat-app",
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.0",
+  "devDependencies": {
+    "turbo": "^2.5.0"
+  }
+}
