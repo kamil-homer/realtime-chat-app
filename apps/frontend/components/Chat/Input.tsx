@@ -2,8 +2,8 @@
 export default function Input() {
   return (
     <div className="flex items-center justify-between gap-4 mt-4">
-      <input
-        type="text"
+      <textarea
+        name="message"
         placeholder="Type your message..."
         className="w-full p-2 border border-gray-300 rounded"
       />
