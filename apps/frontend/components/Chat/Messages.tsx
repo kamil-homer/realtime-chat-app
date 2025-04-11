@@ -6,12 +6,12 @@ export default function Messages() {
       <MessageBubble
         id="1"
         text="Hello"
-        sender="user"
+        sender=""
         timestamp="2023-10-01T12:00:00Z"
       />
       <MessageBubble
         id="1"
-        text="Hello"
+        text="Hello with much longer text to test the overflow"
         sender=""
         timestamp="2023-10-01T12:00:00Z"
       />
@@ -23,7 +23,7 @@ export default function Messages() {
       />
       <MessageBubble
         id="1"
-        text="Hello"
+        text="Hello with much longer text to test the overflow"
         sender="user"
         timestamp="2023-10-01T12:00:00Z"
       />
